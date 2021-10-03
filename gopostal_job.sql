@@ -9,12 +9,12 @@ INSERT INTO `jobs` (`name`, `label`) VALUES
 --
 
 INSERT INTO `job_grades` (`job_name`, `grade`, `name`, `label`, `salary`, `skin_male`, `skin_female`) VALUES
-('gopostal', 0, 'employee', 'Intérimaire', 200, '', '');
+('gopostal', 0, 'employee', 'Intérimaire', 500, '', '');
 
 --
 -- Contenu de la table `items`
 --
 
 INSERT INTO `items` (`name`, `label`, `limit`, `rare`, `can_remove`) VALUES 
-('letter', 'Courrier', '-1', '0', '1'), 
-('colis', 'Colis', '-1', '0', '1');
+('letter', 'Brief', '-1', '0', '1'), 
+('colis', 'Paket', '-1', '0', '1');
